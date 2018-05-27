@@ -1,5 +1,5 @@
 # cmake_stm32
-Example of stm32cube exported code compiled using CMake. 
+Example of exported code by stm32cube that it can compiled using CMake. 
 
 # Hardware
 NUCLEO 64 STM32F446
