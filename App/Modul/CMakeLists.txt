@@ -1,2 +1,0 @@
-# file(GLOB_RECURSE MODUL_SOURCE *.c)
-# add_library(MODUL_LIB ${MODUL_SOURCE})

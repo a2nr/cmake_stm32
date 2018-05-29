@@ -1,2 +1,0 @@
-file(GLOB_RECURSE APP_SOURCE *.c)
-add_library(APP_LIB ${APP_SOURCE})

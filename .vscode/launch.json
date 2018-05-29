@@ -5,12 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "cwd": "${workspaceRoot}",
-            "executable": "./build/Src/cmake_Blajar.elf",
-            "name": "ST-UTIL",
+            "name": "GDB",
+            "type": "gdb",
             "request": "launch",
-            "type": "cortex-debug",
-            "servertype": "stutil"
+            "cwd": "${workspaceRoot}",
+            "target": "${workspaceRoot}/build/STM32COMMAND.elf", 
+            "gdbpath" : "/usr/bin/arm-none-eabi-gdb",
+            "autorun": [
+                "target remote localhost:3333",
+                "symbol-file ./build/STM32COMMAND.elf",
+                "monitor reset" 
+                ]
         }
     ]
 }
