@@ -1,0 +1,9 @@
+[
+    {
+      "name": "arm",
+      "compilers": {
+        "CXX": "arm-none-eabi-g++",
+        "C": "arm-none-eabi-gcc"
+      }    
+    }
+  ]

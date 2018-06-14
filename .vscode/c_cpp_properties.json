@@ -1,0 +1,27 @@
+{
+    "env": {
+        "myDefaultIncludePath": [
+            "${workspaceFolder}/Inc",
+            "${workspaceFolder}/Drivers/CMSIS/Include",
+            "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+            "${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/Inc",
+            "${workspaceFolder}/App/Inc",
+            "${workspaceFolder}/App/Modul/CommandHandler",
+            "${workspaceFolder}/App/Modul/ML_Driver/Inc"
+        ]
+    },
+    "configurations": [
+        {
+            "name": "linux",
+            "intelliSenseMode": "clang-x64",
+            "includePath": [
+                "${myDefaultIncludePath}"
+            ],
+            "defines": [
+                "STM32F446xx",
+                "USE_FULL_LL_DRIVER"
+            ]
+        }
+    ],
+    "version": 4
+}

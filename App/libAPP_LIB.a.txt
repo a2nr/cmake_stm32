@@ -1,0 +1,6 @@
+
+app.c.obj:
+00000000 00000012 T setup
+00000000 00000012 T loop
+   text	   data	    bss	    dec	    hex	filename
+     24	      0	      0	     24	     18	app.c.obj (ex libAPP_LIB.a)
